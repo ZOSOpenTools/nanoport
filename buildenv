@@ -1,5 +1,5 @@
 # bump: nano-version /NANO_VERSION="(.*)"/ https://nano-editor.org/dist/latest/|re:/nano-([\d.]+).tar.gz/$1/|semver:*
-NANO_VERSION="8.1"
+NANO_VERSION="8.2"
 
 export ZOPEN_BUILD_LINE="STABLE"
 export ZOPEN_STABLE_URL="https://nano-editor.org/dist/latest/nano-${NANO_VERSION}.tar.gz"
